@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&family=Jost:wght@300;400;500&family=Lora:ital@1&family=Montserrat:wght@300;600&family=Varela+Round&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Jost', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +11,177 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* NAVIGATION.JSX STYLES */
+.back-nav-color{
+  background-color: #C3FF8B;
+}
+.close-offcanvas-nav-color{
+  background-color: #A9D87C;
+}
+.profile-img{
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #0F99B4;
+}
+.placement-nav{
+  display: flex;
+  text-align: center;
+  margin-top: 5%;
+}
+.category{
+  font-size: xx-large;
+  transition: all 0.5s ease;
+}
+.category:hover{
+  background-color: #A9D87C;
+}
+.profile-offcanvas{
+  margin-bottom: 20px;
+}
+
+/* ABOUT.JSX STYLES */
+.about-container{
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 70%;
+}
+.artemsidnev{
+  color: #0C697C;
+}
+.address-nomer-pochta{
+  font-size: large;
+}
+.mail:link{
+  color: #0C697C;
+}
+.mail:hover {
+  color: #C3FF8B;
+}
+.about-me{
+  margin-top: 30px;
+  font-size: larger;
+}
+.github{
+  margin-right: 20px;
+}
+.linkedin{
+  margin-right: 20px;
+}
+
+/* EXPERIENCE.JSX STYLES */
+.exp-container{
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 70%;
+}
+.abzats{
+  margin-top: 10px;
+  font-size: larger;
+}
+
+/* EDUCATION.JSX STYLES */
+.edu-container{
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 70%;
+}
+
+/* SKILLS.JSX STYLES */
+.skills-container{
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 70%;
+}
+.i-item{
+  margin-right: 20px;
+}
+.tools{
+  margin-top: 40px;
+}
+.skills{
+  margin-top: 10px;
+}
+
+
+/* INTERESTS.JSX STYLES */
+.interests-container{
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 70%;
+}
+
+
+/* PORTFOLIO.JSX STYLES */
+.portfolio-container{
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 70%;
+}
+.projects__cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.projects__card {
+  max-width: 350px;
+
+  padding: 20px;
+
+  border: 1px solid #0F99B4;
+  border-radius: 8px;
+}
+.projects__card h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.projects__card p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+.projects__card img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 10px;
+
+  border-radius: 8px;
+}
+.projects__card .button {
+  margin: 10px 5px 0;
+}
+.button {
+  display: inline-block;
+
+  background: #0F99B4;
+
+  padding: 15px 50px;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color:#C3FF8B;
+
+  cursor: pointer;
+
+  transition: all 250ms ease;
+}
+.button:hover {
+  background: #0088BB;
+  color: #FFFFFF;
+}
+
