@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div id="about" className="about-container">
             <h1>&#128196; ARTEM <span className="artemsidnev">SIDNEV</span></h1>        
-            <h4>Vesennyaya street, 6, Lyubertsy, Moscow region | +7 910 969 29 22 | <a className="mail" href="mailto:artemsidnev@gmail.com">artemsidnev@gmail.com</a></h4>
+            <h4>Vesennyaya street, 6, Lyubertsy, Moscow region | +7 910 969 29 22 | <a className="mail" href="mailto:artemsidnev2006@gmail.com">artemsidnev2006@gmail.com</a></h4>
             <p className="about-me">
                 Hello, I'm Artem Sidnev. My dream at the moment is to help develop applications for the blockchain and for the web3 Internet - the new era of the Internet, which we will dive into in 3 years.
             </p>
