@@ -38,7 +38,7 @@ const Portfolio = () => {
                 <div className="projects__card">
                     <h3>Mood Dapp</h3>
                     <img src="https://gateway.pinata.cloud/ipfs/QmdbW5RM8hS8Q5v14uuorFztHyGdb56E9ogK8aXiDwAgbx" alt="Aave Landing Page" />
-                    <p> I created dapp where you can set your mood for crypto &#128514; Cool? I think so too.
+                    <p> I created dapp where you can set your mood for native mood tokens which you can get by swapping eth in same dapp &#128514; Cool? I think so too.
                     </p>
                     <a href="#" target="_blank" className="button">No site yet</a>
                     <a href="https://github.com/siddot/mood-app" target="_blank" className="button">Code</a>
